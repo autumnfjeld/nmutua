@@ -125,22 +125,12 @@ a:after {
 
 }
 
-#headerwrap i {
-  /*display: inline-block;*/
-  font-size: 8px;
-  padding: 3px;
-  /*padding-bottom: 7px;*/
-  line-height: inherit;
-}
-
 #headerwrap h3 {
-  display: inline;
   font-size: 30px;
   font-weight: 100;
     /*font-family: 'EB Garamond', serif;*/
     /*font-style: oblique;*/
 }
-
 
 #headerwrap .logo {
 	text-align: left;
@@ -170,7 +160,7 @@ a:after {
 }
 
 #aboutwrap p {
-  font-size: 20px;
+  font-size: 21px;
   color: #f2f2f2;
 }
 
@@ -186,9 +176,15 @@ a:after {
   text-align: center 
 }
 
+/* Portfolio */
+#portfoliowrap{
+  background: #0B6138;
+}
+
+
 /* Footer +plus Wrap */
 
-#contactwrap h3 {
+#contactwrap h3, #portfoliowrap h3 {
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	

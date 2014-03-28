@@ -15,6 +15,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/animations.css">
+		<link rel="stylesheet" href="assets/css/hover_pack.css">
 
     <script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/modernizr.custom.js"></script>
@@ -66,8 +68,8 @@
 				<h1>autumn | nmutua</h1>
 				<br>
 				<div class="row">
-					<h3> develop software  </h3> <i class="icon icon-circle"></i> 
-					<h3> travel </h3> <i class="icon icon-circle"></i>
+					<h3> develop software  
+					<h3> travel </h3>
 					<h3> color </h3>
 				</div>
 				<div class="col-lg-6 col-lg-offset-3">
@@ -88,7 +90,9 @@
 				
 				<!-- INTRO INFORMATIO-->
 				<div class="col-lg-6 col-lg-offset-3">
-					<p>I live in San Francisco and am driving an exciting redirect of my engineering life from Computational Fluid Dynamics into web development. Programming was one of the most enjoyable parts of my engineering career: writing custom functions to extend commercial simulation software, data analysis in Matlab, Scheme scripts for automatizing post processing visualization of a fluid flow simulation, and I can even recall a few FORTRAN scripts in Engineering classes.</p>
+					<p>I live in San Francisco and am a software engineer, interested in full stack web development. I recently worked on a mobile app to be released in the app store Q2 2014 and a data visualization project using d3.js to show a visual node-cloud relationship between wikipeidia articles.
+
+					Over the past year I have transitioned from an engineering career in Materials Science and Computational Fluid Dynamics. Programming was one of the most enjoyable parts of my engineering career: writing custom functions to extend commercial simulation software, data analysis in Matlab, Scheme scripts for automatizing post processing visualization of a fluid flow simulation, and I can even recall a few FORTRAN scripts in Engineering classes.</p>
 
 					<p>What was missing in all this fun was a personal connection to the systems I was analyzing.  Enter JavaScript and web development. I realized that I could take my programming experience and connect it to something visual and personal. </p>
 
@@ -103,79 +107,53 @@
 	
 
 	<!-- ========== PORTFOLIO SECTION ====== -->  
-	<section id="portfolio"></section>  
-	<div class="container">
-		<div class="row mt centered ">
-			<div class="col-lg-4 col-lg-offset-4">
-				<h3>Our Latest Work</h3>
-				<hr>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port01.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 1</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>APE - <i class="fa fa-heart-o"></i></p>
-			</div>
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port02.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 2</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>RAIDERS - <i class="fa fa-heart-o"></i></p>
-			</div>
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port03.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 3</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>VIKINGS - <i class="fa fa-heart-o"></i></p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port03.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 4</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>APE - <i class="fa fa-heart-o"></i></p>
-			</div>
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port01.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 5</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>RAIDERS - <i class="fa fa-heart-o"></i></p>
-			</div>
-			<div class="col-lg-4 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port02.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Project 6</h4>
-					  	<p class="b-from-right b-animate b-delay03">View Details</p>
-					</div>
-				</a>
-				<p>VIKINGS - <i class="fa fa-heart-o"></i></p>
-			</div>
-		</div><!-- /row -->
+	<section id="portfolio" name="portfolio"></section>  
+	<div id="portfoliowrap">
+	  <div class="container">
+			<div class="row mt centered ">
+				<div class="col-lg-4 col-lg-offset-4">
+					<h3>My Latest Work</h3>
+					<hr>
+				</div>
+			</div><!-- /row -->
+			<div class="row mt centered">	
+				<div class="col-lg-4 desc">
+					<a class="b-link-fade b-animate-go" href="http://youtu.be/AN4371oQ8So"><img height="400" src="assets/img/portfolio/plentyy_detail.png" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">Plentyy</h4>
+						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
+						</div>
+					</a>
+					<p>Plentyy Mobile.  An app to connect local merchant discounts to mobile users.</p>
+				</div>
+		
+				<div class="col-lg-4 desc">
+					<a class="b-link-fade b-animate-go" href="https://github.com/WikiMapper/WikiViz"><img height="400" src="assets/img/portfolio/political_poke.jpg" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">WikiViz</h4>
+						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
+						</div>
+						<p>WikiViz. A node cloud visualization of interconnected Wikipedia articles.</p>
+				</div>
 
-		<div class="row mt centered">
-			<div class="col-lg-4 col-lg-offset-4">
-    			<button type="button" class="btn btn-theme btn-lg">blog.nmutua.com</button>
-			</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
+				<div class="col-lg-4 desc">
+					<a class="b-link-fade b-animate-go" href="politicalpoke.nmutua.com"><img height="400" src="assets/img/portfolio/political_poke.png" alt="" />
+						<div class="b-wrapper">
+						  	<h4 class="b-from-left b-animate b-delay03">Political Poke</h4>
+						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
+						</div>
+					</a>
+					<p>Political Poke. A personal hackathon project.</p>
+				</div>
+			</div><!-- /row -->
+
+			<div class="row mt centered">
+				<div class="col-lg-4 col-lg-offset-4">
+	    			<button type="button" class="btn btn-theme btn-lg">blog.nmutua.com</button>
+				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- wrapper  -->
 
 
 
