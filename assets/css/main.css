@@ -9,7 +9,7 @@
 
 body {
   background-color: #003366;
-    font-family: 'EB Garamond', serif;
+    /*font-family: 'EB Garamond', serif;*/
     font-weight: 300;
     font-size: 16px;
     color: #C0C4CC;
@@ -54,7 +54,9 @@ p {
 }
 
 .si:hover {
-  background-color: #ffffff;
+  background-color: #38294F;
+  opacity: 10%;
+  border-radius: 5px;
 }
 
 .si i {
@@ -65,7 +67,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #A899BF;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -162,14 +164,14 @@ a:after {
   text-align: center
 }
 
-#aboutwrap h3 {
+#aboutwrap h3, , #portfoliowrap h3 {
   color: #C0C4CC;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 1px;  
 }
 
-#aboutwrap i {
+#aboutwrap i, #contactwrap i  {
   font-size: 8px;
   padding: 3px;
 }
@@ -199,29 +201,41 @@ a:after {
 #portfoliowrap h4 {
   font-size: 18px;
   font-weight: 700;
+  padding: 0 0 20px 0;
 }
 
+#portfoliowrap .blurb {
+  padding: 60px 30px 30px 30px;
+}
+
+#portfoliowrap a {
+  color: #A899BF;
+}
 
 /* Footer +plus Wrap */
 
-#contactwrap h3 {
+#contactwrap h3, #aboutwrap h3, #portfoliowrap h3  {
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;	
 }
 
-#contactwrap i {
-	font-size: 8px;
-  padding: 3px;
+#contactwrap .contact-icons i {
+  font-size: 24px;
+  padding: 10px 8px 10px 8px;
 }
 
-#contactwrap p {
+#contactwrap p, #portfoliowrap p {
 	font-size: 20px;
 	color: #f2f2f2;
 }
 
 #contactwrap img {
 	text-align: center;
+}
+
+#contactwrap .blacktie  {
+  font-size: 14px;
 }
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
@@ -285,7 +299,7 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #5B3B8A;
+	background: #38294F;
 	width: 200px;
 	height: 100%;
 }
