@@ -38,12 +38,13 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Minimal</a></h1>
+			<h1 class="logo"><a href="index.html#home">Autumn</a></h1>
 			<i class="icon-remove menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">About</a>
 			<a href="#portfolio" class="smoothScroll">Portfolio</a>
-			<a href="#contact" class="smoothScroll">Contact</a>
+      <a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#contact" class="smoothScroll">Resume</a>
 			<a href="#"><i class="icon-facebook"></i></a>
 			<a href="#"><i class="icon-twitter"></i></a>
 			<a href="#"><i class="icon-dribbble"></i></a>
@@ -89,8 +90,8 @@
 				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 				
 				<!-- INTRO INFORMATIO-->
-				<div class="col-lg-6 col-lg-offset-3">
-					<p>I live in San Francisco and am a software engineer, interested in full stack web development. I recently worked on a mobile app to be released in the app store Q2 2014 and a data visualization project using d3.js to show a visual node-cloud relationship between wikipeidia articles.
+				<div class="col-md-8 col-md-offset-2">
+					<p>I live in San Francisco and am a software engineer interested in full stack web development. I recently worked on a mobile app called <a href="http://signup.plentyy.com">Plentyy</a>, (to be released in the App store Q2 2014) and a <a href="http://wikivizmap.herokuapp.com">data visualization project</a> using d3.js to show a visual node-cloud relationship between wikipeidia articles.
 
 					Over the past year I have transitioned from an engineering career in Materials Science and Computational Fluid Dynamics. Programming was one of the most enjoyable parts of my engineering career: writing custom functions to extend commercial simulation software, data analysis in Matlab, Scheme scripts for automatizing post processing visualization of a fluid flow simulation, and I can even recall a few FORTRAN scripts in Engineering classes.</p>
 
@@ -105,57 +106,30 @@
 		</div><!-- /container -->
 	</div><!-- /f -->
 	
-
 	<!-- ========== PORTFOLIO SECTION ====== -->  
-	<section id="portfolio" name="portfolio"></section>  
-	<div id="portfoliowrap">
-	  <div class="container">
-			<div class="row mt centered ">
-				<div class="col-lg-4 col-lg-offset-4">
-					<h3>My Latest Work</h3>
-					<hr>
-				</div>
-			</div><!-- /row -->
-			<div class="row mt centered">	
-				<div class="col-lg-4 desc">
-					<a class="b-link-fade b-animate-go" href="http://youtu.be/AN4371oQ8So"><img height="400" src="assets/img/portfolio/plentyy_detail.png" alt="" />
-						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">Plentyy</h4>
-						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
-						</div>
-					</a>
-					<p>Plentyy Mobile.  An app to connect local merchant discounts to mobile users.</p>
-				</div>
-		
-				<div class="col-lg-4 desc">
-					<a class="b-link-fade b-animate-go" href="https://github.com/WikiMapper/WikiViz"><img height="400" src="assets/img/portfolio/political_poke.jpg" alt="" />
-						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">WikiViz</h4>
-						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
-						</div>
-						<p>WikiViz. A node cloud visualization of interconnected Wikipedia articles.</p>
-				</div>
-
-				<div class="col-lg-4 desc">
-					<a class="b-link-fade b-animate-go" href="politicalpoke.nmutua.com"><img height="400" src="assets/img/portfolio/political_poke.png" alt="" />
-						<div class="b-wrapper">
-						  	<h4 class="b-from-left b-animate b-delay03">Political Poke</h4>
-						  	<p class="b-from-right b-animate b-delay03">Find out more</p>
-						</div>
-					</a>
-					<p>Political Poke. A personal hackathon project.</p>
-				</div>
-			</div><!-- /row -->
-
-			<div class="row mt centered">
-				<div class="col-lg-4 col-lg-offset-4">
-	    			<button type="button" class="btn btn-theme btn-lg">blog.nmutua.com</button>
-				</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- wrapper  -->
-
-
+	  <section id="portfolio" name="portfolio"></section>  
+  <div id="portfoliowrap">
+    <div class="container">
+    	<div class="row mt">
+    		<div class="col-lg-4 centered si">
+    			<i class="fa fa-flask"></i>
+    			<h4>Plentyy Mobile App</h4>
+    			<p>An app to connect local merchant discounts to mobile users. Built with AngularJS, Ionic, Cordova with Firebase data storage.</p>
+    		</div>
+    		<div class="col-lg-4 centered si">
+    			<i class="fa fa-eye"></i>
+    			<h4>WikiViz</h4>
+    			<p>A Graph Visualization of Wikipedia Articles and their Embedded Links. Front end built in AngularJS and d3.js with a backend scraper to extract links from a given wikipedia page. </p>
+    		</div>
+    		<div class="col-lg-4 centered si">
+    			<i class="fa fa-mobile"></i>
+    			<h4>Hackathon Project</h4>
+    			<p>Web application built in AngularJS wired to New York Times API to pull candidate campaign contribution data for a specified politician.</p>
+    		</div>    	   	
+    	</div><!-- /row -->
+    </div><!-- /container -->
+  </div>
+  </section>
 
 	<!-- ========== CONTACT SECTION ========== -->
 	<section id="contact" name="contact"></section>
@@ -167,7 +141,7 @@
 				
 				<div class="col-lg-6 col-lg-offset-3">
 					<h1> Autumn Fjeld </h1>
-					<p>San Francisco, CA<br/>+415 810-4344</p>
+					
 					<p>autumn@nmutua.com</p>
 					<!-- <p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p> -->
 					<p><a href="http://blacktie.co">Credits</a> for the structure of this wonderful theme.</p>
@@ -176,8 +150,6 @@
 		</div>
 	</div>
 
-	
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -185,5 +157,21 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
+
+
+    <script>
+    $(window).scroll(function() {
+      $('.si').each(function(){
+      var imagePos = $(this).offset().top;
+  
+      var topOfWindow = $(window).scrollTop();
+        if (imagePos < topOfWindow+400) {
+          $(this).addClass("slideUp");
+        }
+      });
+    });
+  </script>   
+
+  
 </body>
 </html>
