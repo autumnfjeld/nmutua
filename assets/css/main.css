@@ -171,19 +171,28 @@ a:after {
   letter-spacing: 1px;  
 }
 
+#aboutwrap .icons {
+	margin: 14px 0;
+}
 #aboutwrap i, #contactwrap i, #portfoliowrap i  {
   font-size: 8px;
   padding: 3px;
 }
 
 #aboutwrap p {
-  font-size: 20px;
   color: #f2f2f2;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 #aboutwrap img {
   text-align: center;
 }
+
+/*#aboutwrap .about-summary {
+  font-size: 14px;
+}*/
 
 
 /* Portfolio */
