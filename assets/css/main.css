@@ -64,7 +64,6 @@ p {
   padding: 20px;
 }
 
-
 /* Links */
 a {
     color: #A899BF;
@@ -176,7 +175,7 @@ a:after {
 }
 #aboutwrap i, #contactwrap i, #portfoliowrap i  {
   font-size: 8px;
-  padding: 3px;
+  padding: 6px;
 }
 
 #aboutwrap p {
@@ -198,6 +197,10 @@ a:after {
 /* Portfolio */
 #portfoliowrap{
   background: #0B6138;
+}
+
+#portfoliowrap .icons {
+	margin-bottom: 0;
 }
 
 #portfoliowrap h4 {
