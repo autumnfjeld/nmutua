@@ -251,8 +251,14 @@ a:after {
 	text-align: center;
 }
 
-#contactwrap .blacktie  {
+#contactwrap .blacktie {
   font-size: 14px;
+}
+
+#contactwrap .updated {
+	line-height: 1;
+	font-size: 12px;
+	color: hsl(227, 18%, 45%);
 }
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
